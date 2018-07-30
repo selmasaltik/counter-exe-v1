@@ -1,0 +1,93 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  font-family: "Tahoma";
+  font-size: 16px;
+
+}
+
+.clear {
+  clear: both;
+}
+
+
+.sayidisi{
+  display: inline-block;
+  margin-top: 100px;
+  padding:60px;
+  background-color:#E9967A;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid #FFE4C4;
+}
+.sayi{
+  width: 100px;
+}
+
+.sayi p{
+  text-align: center;
+  padding: 25px;
+  font-size: 40px;
+  background-color:#8FBC8F;
+  border-radius: 50%;
+  color:#CD5C5C;
+}
+
+.resetbutton{
+  margin-top: 15px;
+  display: inline-block;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#E9967A;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.resetbutton:hover {
+  background-color: #FFE4C4;
+  color:#CD5C5C;
+}
+
+.resetbutton:active {
+  background-color: #FFE4C4;
+  box-shadow: 0 5px #FFF0F5;
+  transform: translateY(2px);
+  }
+
+  .incbutton:hover {
+    background-color: #FFE4C4;
+    color:#CD5C5C;
+  }
+  .incbutton:active {
+    background-color: #FFE4C4;
+    box-shadow: 0 5px #FFF0F5;
+    transform: translateY(4px);
+}
+.incbutton{
+  margin-top: 15px;
+  display: inline-block;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#E9967A;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
