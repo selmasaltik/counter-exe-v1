@@ -3,6 +3,10 @@ var state={
   current:0,
 };
 
+function attenuat(){
+  state.current--
+}
+
 function increament(){
   state.current++
 }
@@ -26,6 +30,14 @@ document.querySelector(".incbutton") .addEventListener(
     "click",
     function(){
       increament();
+      yazdir()
+    }
+);
+
+document.querySelector(".attenuatbutton") .addEventListener(
+    "click",
+    function(){
+      attenuat();
       yazdir()
     }
 );

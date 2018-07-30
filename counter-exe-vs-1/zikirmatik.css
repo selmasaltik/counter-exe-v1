@@ -91,3 +91,29 @@ body {
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
+
+.attenuatbutton{
+  margin-top: 15px;
+  display: inline-block;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#E9967A;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.attenuatbutton:hover {
+  background-color: #FFE4C4;
+  color:#CD5C5C;
+}
+
+.attenuatbutton:active {
+  background-color: #FFE4C4;
+  box-shadow: 0 5px #FFF0F5;
+  transform: translateY(2px);
+  }
